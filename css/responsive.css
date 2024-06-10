@@ -1,146 +1,445 @@
-/* Extra Large Devices, Wide Screens */
-@media only screen and (max-width : 1600px) {
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-}
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
 
-}
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.tokens-area .tokens{margin: 0;}
-	.tokens-area .tokens .token-body{padding: 50px 25px;}
-	footer .footer-bottom{height: auto;line-height: 26px;padding: 50px 0; text-align: center;}
-	footer .footer-bottom .foo-link{text-align: center;margin-top: 15px;}
-	.logo-area{
-		text-align:center;
-	}
-	header .menu-area{
-		float:none;
-		width:100%;
-		text-align:center;
-	}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	.mobile-menu-area{display: block !important;}
-	.my-video-dimensions{width: 480px;height: 249px;}
-	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{top: 24%;}
-	.tokens-area .tokens{display: block;margin: 0 0 50px;}
-	.tokens-area .tokens .token-body{display: block;}
-	.easypiechart{display: block;}
-	.tokens-area .token-con{margin: 0;}
-	.e_chart_3 div{margin: 0 auto;}
-	.token-details .cart-list .label-chatrs{padding: 62px 100px;}
-	.token-details .owl-controls .owl-buttons div.owl-prev{left: 0;border-radius: 0 15px 15px 0;}
-	.token-details .owl-controls .owl-buttons div.owl-next{right: 0;border-radius: 15px 0 0 15px ;}
-	.blog-area .owl-controls .owl-buttons{display: none;}
-	header .mobilemenu .mean-container .mean-nav{margin-top: 38px;}
-	.easypiechart { display: block; text-align: center; margin: auto; margin-top: 55px; }
-	.btc_timer_section_wrapper { text-align: center; }
-	.video-des .deslidt ul li .serials:before,.video-des .deslidt ul li .serials span.cre:before,.video-des .deslidt ul li .serials span.cre:after{display: none;}
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
 }
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 625px) {
-footer .footer-top .con ul li a {
-    width: 54px;
-    height: 54px;
-    line-height: 50px;
-    font-size: 24px;
-}
-}
-@media only screen and (max-width : 600px) {
-.features-area .featured-lists ul li .imgs-l img, .features-area .featured-lists ul li .imgs-r img {
-    width: 100%;
-}
-}
-@media only screen and (max-width : 480px) {
-	.my-video-dimensions{width: 400px;height: 207px;}
-	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{top: 24%;}
-	.video-area .videos-heding h2{font-size: 36px;}
-	footer .footer-top .con ul li a{width: 54px;height: 54px;line-height: 50px;font-size: 24px;}
-	footer .footer-top .con ul li{padding: 0 5px;}
-	.media-area .mediabrand ul{margin: 0;}
-	.e_chart_3 {height: 300px !important;}
-	.token-details .owl-controls .owl-buttons div{display: none;}
-	.media-area .mediabrand ul li{display: block;text-align: center;padding: 15px 0;}
-	.team-area .team-list{margin-bottom:50px !important; height:550px !important;}
-	.team-area2 .team-list{overflow: hidden;}
-	.team2-area .team-list{margin-bottom:50px !important; height:550px !important;}
-	.token-details .cart-list .label-chatrs {padding: 62px 62px;}
-	.steps-area .steps-heading h2 {font-size: 26px;}
-	.search_main button { width: 100%; }
-	.team2-area .team-list .dbox,.team-area .team-list .dbox { text-align: center; }
-	.tokens-area .tokens .token-body .prices h3 {margin: 30px 0; }	
-	.video-area .videos-heding .videos-box { display: block;}
-	.media-area .mediabrand ul { margin: 0; text-align: center; }
-	.media-area .mediabrand ul li { display: -webkit-inline-box; text-align: center; padding: 15px 12px; }
-	.currency-area .rete-list h2 span {  font-size: 18px; }
-	.currency-area .rete-list .content .con { text-align: center; padding-top: 30px; display: block; }
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
 }
 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-	.my-video-dimensions{width: 300px;height: 155px;}
-	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{top: 24%;}
-	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{width: 70px;height: 70px;}
-	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button::before{height: 70px;line-height: 70px;width: 30px;background-size: contain;}
-	.video-area .videos-heding h2{font-size: 30px;}
-	.tokens-area .tokens .token-body .left-btn{padding: 0 20px;font-size: 16px;}
-	.tokens-area .tokens .token-body .right-btn{padding: 0 20px;font-size: 16px;}
-	.token-details .cart-list .label-chatrs{padding: 30px 25px;}
-	.team-area .team-list{height: auto;padding-bottom: 30px;}
-	.team2-area .team-list{height: auto;padding-bottom: 30px;}
-	
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_section {
+        background-size: 100% 100%;
+    }
+    .banner_taital_main {
+        width: 50%;
+        float: left;
+    }
+    .banner_section {
+        padding: 80px 0px 90px 0px;
+    }
+    #banner_slider a.carousel-control-next {
+        right: 0px;
+        top: 350px;
+        left: 70px;
+    }
+    #banner_slider a.carousel-control-prev {
+        left: 0px;
+        top: 350px;
+        right: 70px;
+    }
+    .services_main {
+        width: 65%;
+    }
+    .bitcoin_text {
+        font-size: 26px;
+    }
+    .services_text {
+        width: 100%;
+    }
+    .work_main {
+        width: 50%;
+    }
+    .lorem_text {
+        font-size: 14px;
+    }
+    .team_main {
+        width: 75%;
+    }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        padding: 15px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+    .navbar-brand {
+        width: auto;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .search_bt {
+        width: 100%;
+        text-align: center;
+    }
+    #banner_slider a.carousel-control-next {
+        right: 0px;
+        top: 305px;
+        left: 70px;
+    }
+    #banner_slider a.carousel-control-prev {
+        left: 0px;
+        top: 305px;
+        right: 70px;
+    }
+    .banner_section {
+        padding: 90px 0px;
+    }
+    .banner_taital_main {
+        width: 60%;
+        float: left;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+    .services_main {
+        width: 85%;
+    }
+    .bitcoin_text {
+        font-size: 20px;
+    }
+    .services_text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .work_main {
+        width: 60%;
+    }
+    .lorem_text {
+        font-size: 14px;
+    }
+    .work_box {
+        padding: 40px 10px;
+    }
+    .hidden_text {
+        font-size: 15px;
+    }
+    .team_main {
+        width: 100%;
+    }
+    .client_box {
+        padding: 40px 10px 50px 10px;
+    }
 }
-@media (max-width: 1199px){
-	header .menu-area nav ul li a{
-		font-size:12px;
-	}
-	.btn1{
-		height:40px;
-		line-height:40px;
-		padding: 0 25px;
-	}
-	header .menu-area{
-		padding-top:5px;
-	}
-	header .menu-area nav ul li{
-		    padding: 0 9px;
-	}
-	#clockdiv div > span, #clockdiv2 div > span{
-		width: 100px;
-		height: 189px;
-		line-height: 182px;
-	}
-	.btc_timer_section_wrapper{
-		padding-top:110px;
-	}
-	.slider-area .slider-content h2{
-		font-size:40px;
-	}
-	
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        padding: 15px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+    .navbar-brand {
+        width: auto;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .search_bt {
+        width: 100%;
+        text-align: center;
+    }
+    #banner_slider a.carousel-control-next {
+        right: 0px;
+        top: 585px;
+        left: 170px;
+        display: none;
+    }
+    #banner_slider a.carousel-control-prev {
+        left: 100px;
+        top: 585px;
+        display: none;
+    }
+    .banner_section {
+        padding: 50px 0px;
+    }
+    .banner_taital_main {
+        width: 60%;
+        float: left;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+    .started_bt {
+        width: 140px;
+        float: left;
+    }
+    .started_bt a {
+        font-size: 16px;
+    }
+    .buy_bt {
+        width: 140px;
+        float: left;
+    }
+    .buy_bt a {
+        font-size: 16px;
+    }
+    hr.border {
+        display: none;
+    }
+    .services_main {
+        width: 100%;
+    }
+    .services_taital {
+        font-size: 28px;
+    }
+    .services_section_2 {
+        padding-top: 50px;
+    }
+    .bitcoin_text {
+        font-size: 24px;
+    }
+    .icon_img {
+        margin-top: 30px;
+    }
+    .work_main {
+        width: 100%;
+    }
+    .work_box {
+        padding: 40px 8px;
+        margin-top: 30px;
+    }
+    .icon_4 {
+        margin-top: 30px;
+    }
+    .team_main {
+        width: 100%;
+    }
+    .contact_taital {
+        font-size: 26px;
+    }
+    .client_taital {
+        font-size: 28px;
+    }
+    .client_text {
+        font-size: 15px;
+    }
+    .consectetur_text {
+        width: 100%;
+    }
 }
-@media (max-width: 767px){
-	.logo-area{
-		text-align:left;
-	}
-	.logo-area{
-		width:234px !important;
-	}
-}
-@media (max-width: 1199px) and (min-width: 991px){
-	.rete-list{
-		width:23% !important;
-		margin-left:15px !important;
-	}
-}
-@media (max-width: 767px){
-#clockdiv img {
-	margin-left: -65px;
-}
+
+@media (max-width: 575px) {
+    .navbar {
+        padding: 15px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        background: #fff;
+    }
+    .navbar-brand {
+        width: auto;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .search_bt {
+        width: 100%;
+        text-align: center;
+    }
+    #banner_slider a.carousel-control-next {
+        right: 0px;
+        top: 585px;
+        left: 170px;
+        display: none;
+    }
+    #banner_slider a.carousel-control-prev {
+        left: 100px;
+        top: 585px;
+        display: none;
+    }
+    .banner_section {
+        padding: 50px 0px;
+    }
+    .banner_taital_main {
+        width: 100%;
+        float: left;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+    .started_bt {
+        width: 140px;
+        float: left;
+    }
+    .started_bt a {
+        font-size: 16px;
+    }
+    .buy_bt {
+        width: 140px;
+        float: left;
+    }
+    .buy_bt a {
+        font-size: 16px;
+    }
+    hr.border {
+        display: none;
+    }
+    .services_main {
+        width: 100%;
+    }
+    .services_taital {
+        font-size: 28px;
+    }
+    .services_section_2 {
+        padding-top: 50px;
+    }
+    .bitcoin_text {
+        font-size: 24px;
+    }
+    .icon_img {
+        margin-top: 30px;
+    }
+    .work_main {
+        width: 100%;
+    }
+    .work_box {
+        padding: 40px 8px;
+        margin-top: 30px;
+    }
+    .icon_4 {
+        margin-top: 30px;
+    }
+    .team_main {
+        width: 100%;
+    }
+    .contact_taital {
+        font-size: 26px;
+    }
+    .client_taital {
+        font-size: 28px;
+    }
+    .client_text {
+        font-size: 15px;
+    }
+    .consectetur_text {
+        width: 100%;
+    }
 }
